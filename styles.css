@@ -1,0 +1,18 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.card {
+  width: 320px;
+  padding: 16px;
+  border: 1px solid #d9d9e3;
+  border-radius: 12px;
+}
+
+.card img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
